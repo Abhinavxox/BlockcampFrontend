@@ -206,7 +206,7 @@ const Navbar = () => {
                   ) : (
                     // <button className="btn btn-ghost">
                     <Link to="/login">
-                      <h1 className="hover:text-blue-600">Login</h1>
+                      <h1 className="hover:text-blue-600">Connect Wallet</h1>
                     </Link>
                     // </button>
                   )}
