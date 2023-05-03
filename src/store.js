@@ -6,7 +6,7 @@ import {
 import thunk from "redux-thunk";
 import { composeWithDevTools } from "redux-devtools-extension";
 
-import { authReducer } from "./reducers/userReducers";
+import { authReducer } from "./reducers/userReducer";
 const reducer = combineReducers({
   auth: authReducer,
 });
