@@ -6,7 +6,7 @@ const Navbar = () => {
   const [show, setShow] = useState(false);
   const [isAuthenticated, setIsAuthenticated] = useState(false);
   return (
-    <div className="h-[10vh]">
+    <div className="">
       <div
         className={
           show
@@ -41,7 +41,7 @@ const Navbar = () => {
                     </g>
                   </svg>
                   <p className="text-bold md:text2xl text-base pl-3 text-gray-800">
-                    BLOCKRANCE
+                    BLOCKSURANCE
                   </p>
                 </div>
                 <div
@@ -148,7 +148,7 @@ const Navbar = () => {
                 </g>
               </svg>
               <h3 className="text-base text-gray-800 font-bold tracking-normal leading-tight ml-3 hidden lg:block">
-                BLOCKRANCE
+                BLOCKSURANCE
               </h3>
             </div>
             <ul className="pr-32 xl:flex hidden items-center h-full">
