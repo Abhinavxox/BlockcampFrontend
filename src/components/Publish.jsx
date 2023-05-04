@@ -381,7 +381,7 @@ export const Publish = () => {
               {/* flex item 2 */}
               <div className="Publish__form--input-boxes">
                 {" "}
-                <div className="Publish__form--input-title">
+                <div className="my-5">
                   <h2 className="ml-2 text-xl font-bold">Title</h2>
                   <input
                     type="text"
@@ -392,7 +392,7 @@ export const Publish = () => {
                     required
                   />
                 </div>
-                <div className="Publish__form--input--author">
+                <div className="my-5">
                   <h2 className="ml-2 text-xl font-bold">Author</h2>
                   <input
                     type="text"
@@ -403,7 +403,7 @@ export const Publish = () => {
                     required
                   />
                 </div>
-                <div className="Publish__form--input--description">
+                <div className="my-5">
                   <h2 className="ml-2 text-xl font-bold">Description</h2>
                   <textarea
                     type="text"
@@ -413,7 +413,7 @@ export const Publish = () => {
                     required
                   />
                 </div>
-                <div className="Publish__form--input--category">
+                <div className="my-5">
                   <h2 className="ml-2 text-xl font-bold">Categories</h2>
                   <Select
                     defaultValue={[categoryOptions[0]]}
