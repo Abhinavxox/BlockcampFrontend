@@ -41,7 +41,7 @@ const Navbar = () => {
                     </g>
                   </svg>
                   <p className="text-bold md:text2xl text-base pl-3 text-gray-800">
-                    DONATE
+                    BLOCKRANCE
                   </p>
                 </div>
                 <div
@@ -117,14 +117,7 @@ const Navbar = () => {
               <div className="border-t border-gray-300">
                 <div className="w-full flex items-center justify-between px-6 pt-1">
                   <div className="flex items-center">
-                    <img
-                      alt="profile-pic"
-                      src="https://tuk-cdn.s3.amazonaws.com/assets/components/boxed_layout/bl_1.png"
-                      className="w-8 h-8 rounded-md"
-                    />
-                    <p className=" text-gray-800 text-base leading-4 ml-2">
-                      User
-                    </p>
+                    <ConnectButton />
                   </div>
                 </div>
               </div>
@@ -135,7 +128,7 @@ const Navbar = () => {
       {/* Mobile */}
       <nav className="w-full mx-auto bg-white shadow relative z-20">
         <div className="justify-between container px-6 h-16 flex items-center lg:items-stretch mx-auto">
-          <div className="flex items-center w-full">
+          <div className="flex items-center">
             <div className="mr-10 flex items-center">
               <svg
                 aria-label="Home"
@@ -155,15 +148,12 @@ const Navbar = () => {
                 </g>
               </svg>
               <h3 className="text-base text-gray-800 font-bold tracking-normal leading-tight ml-3 hidden lg:block">
-                DONATE
+                BLOCKRANCE
               </h3>
             </div>
-            <ul className="pr-32 xl:flex hidden items-center h-full justify-between w-full">
+            <ul className="pr-32 xl:flex hidden items-center h-full">
               <li className="hover:text-indigo-700 cursor-pointer h-full flex items-center text-sm text-indigo-700 tracking-normal">
                 Dashboard
-              </li>
-              <li>
-                <ConnectButton />
               </li>
             </ul>
           </div>
@@ -208,7 +198,7 @@ const Navbar = () => {
                       <p className="text-gray-800 text-sm ml-2">User</p>
                     </>
                   ) : (
-                    ""
+                    <ConnectButton />
                   )}
                 </div>
               </div>
