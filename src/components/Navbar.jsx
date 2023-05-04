@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
+import { ConnectButton } from "@rainbow-me/rainbowkit";
 
 const Navbar = () => {
   const [show, setShow] = useState(false);
@@ -134,7 +135,7 @@ const Navbar = () => {
       {/* Mobile */}
       <nav className="w-full mx-auto bg-white shadow relative z-20">
         <div className="justify-between container px-6 h-16 flex items-center lg:items-stretch mx-auto">
-          <div className="flex items-center">
+          <div className="flex items-center w-full">
             <div className="mr-10 flex items-center">
               <svg
                 aria-label="Home"
@@ -157,9 +158,12 @@ const Navbar = () => {
                 DONATE
               </h3>
             </div>
-            <ul className="pr-32 xl:flex hidden items-center h-full">
+            <ul className="pr-32 xl:flex hidden items-center h-full justify-between w-full">
               <li className="hover:text-indigo-700 cursor-pointer h-full flex items-center text-sm text-indigo-700 tracking-normal">
                 Dashboard
+              </li>
+              <li>
+                <ConnectButton />
               </li>
             </ul>
           </div>
@@ -204,11 +208,7 @@ const Navbar = () => {
                       <p className="text-gray-800 text-sm ml-2">User</p>
                     </>
                   ) : (
-                    // <button className="btn btn-ghost">
-                    <Link to="/login">
-                      <h1 className="hover:text-blue-600">Connect Wallet</h1>
-                    </Link>
-                    // </button>
+                    ""
                   )}
                 </div>
               </div>
