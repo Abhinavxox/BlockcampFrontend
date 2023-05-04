@@ -1,10 +1,11 @@
 import React, { useState } from "react";
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import { ConnectButton } from "@rainbow-me/rainbowkit";
 
 const Navbar = () => {
   const [show, setShow] = useState(false);
   const [isAuthenticated, setIsAuthenticated] = useState(false);
+  const navigate = useNavigate();
   return (
     <div className="">
       <div
@@ -68,7 +69,7 @@ const Navbar = () => {
                 </div>
               </div>
               <ul className="f-m-m">
-                <a>
+                <div>
                   <li className="text-white pt-8">
                     <div className="flex items-center">
                       <div className="md:w-6 md:h-6 w-5 h-5">
@@ -107,10 +108,15 @@ const Navbar = () => {
                           />
                         </svg>
                       </div>
-                      <p className="text-indigo-500 ml-3 text-lg">Dashboard</p>
+                      <p className="text-indigo-500 ml-3 text-lg">
+                        <Link path="/dashboard">Dashboard</Link>
+                      </p>
+                      <p className="text-indigo-500 ml-3 text-lg">
+                        <Link path="/publish">Publish</Link>
+                      </p>
                     </div>
                   </li>
-                </a>
+                </div>
               </ul>
             </div>
             <div className="w-full">
@@ -153,12 +159,12 @@ const Navbar = () => {
             </div>
             <ul className="pr-5 xl:flex hidden items-center h-full">
               <li className="hover:text-indigo-700 cursor-pointer h-full flex items-center text-sm text-indigo-700 tracking-normal">
-                Dashboard
+                <Link to="/dashboard">Dashboard</Link>
               </li>
             </ul>
             <ul className="xl:flex hidden items-center h-full">
               <li className="hover:text-indigo-700 cursor-pointer h-full flex items-center text-sm tracking-normal">
-                Publish
+                <Link to="/publish">Publish</Link>
               </li>
             </ul>
           </div>
