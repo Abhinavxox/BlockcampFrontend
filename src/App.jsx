@@ -4,13 +4,13 @@ import Navbar from "./components/Navbar";
 
 const App = () => {
   return (
-    <div>
+    <div className="m-0">
       <Navbar />
-      <BrowserRouter>
+      <div className="h-[90vh]">
         <Routes>
           <Route path="/" element={<Home />} />
         </Routes>
-      </BrowserRouter>
+      </div>
     </div>
   );
 };
