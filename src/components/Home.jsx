@@ -16,14 +16,12 @@ const Home = () => {
         <div className="hero-content text-center text-neutral-content">
           <div className="max-w-md">
             <h1 className="mb-5 xl:text-5xl font-bold text-3xl">
-              GET A BLOCKSURANCE
+              PUBLISH A PAPER
             </h1>
             <p className="mb-5">
-              Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda
-              excepturi exercitationem quasi. In deleniti eaque aut repudiandae
-              et a id nisi.
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam
             </p>
-            <button className="btn btn-primary">Get Started</button>
+            <button className="btn btn-primary">Publish</button>
           </div>
         </div>
       </div>
@@ -31,10 +29,10 @@ const Home = () => {
       <div className="pb-10">
         <PoliciesHero />
       </div>
-      {/* why section */}
+      {/* why section
       <div>
         <WhySection />
-      </div>
+      </div> */}
     </>
   );
 };

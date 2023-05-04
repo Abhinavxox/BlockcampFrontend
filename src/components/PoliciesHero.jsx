@@ -1,6 +1,8 @@
 import React from "react";
+import { useNavigate } from "react-router-dom";
 
 const PoliciesHero = () => {
+  const navigate = useNavigate();
   return (
     <div>
       <section className="px-6 xl:px-0">
@@ -13,7 +15,7 @@ const PoliciesHero = () => {
                   <div className="w-full xl:w-1/3 lg:w-1/3 md:w-1/2 sm:w-1/2 mb-4 px-6">
                     <div className="py-5 px-4 bg-white border border-gray-200shadow rounded-lg text-left">
                       <h4 className="text-2xl text-indigo-700 font-semibold pb-8">
-                        Property Insurance
+                        PAPER 1
                       </h4>
                       <ul className="flex flex-col mb-6">
                         <li className="flex items-center mb-2.5">
@@ -93,7 +95,7 @@ const PoliciesHero = () => {
                   <div className="w-full xl:w-1/3 lg:w-1/3 md:w-1/2 sm:w-1/2 mb-4 px-6">
                     <div className="py-5 px-4 bg-indigo-700 border border-gray-200 shadow rounded-lg text-left">
                       <h4 className="text-2xl text-white font-semibold pb-8">
-                        Crop Insurance
+                        PAPER 2
                       </h4>
                       <ul className="flex flex-col mb-6">
                         <li className="flex items-center mb-2.5">
@@ -171,7 +173,7 @@ const PoliciesHero = () => {
                   <div className="w-full xl:w-1/3 lg:w-1/3 md:w-1/2 sm:w-1/2 mb-4 px-6">
                     <div className="py-5 px-4 bg-white border border-gray-200shadow rounded-lg text-left">
                       <h4 className="text-2xl text-indigo-700 font-semibold pb-8">
-                        Funeral Insurance
+                        PAPER 3
                       </h4>
                       <ul className="flex flex-col mb-6">
                         <li className="flex items-center mb-2.5">
@@ -248,7 +250,12 @@ const PoliciesHero = () => {
                 </div>
               </div>
               <div className="flex w-full justify-center -mt-8">
-                <button className="btn btn-primary">See All Options</button>
+                <button
+                  className="btn btn-primary"
+                  onClick={() => navigate("/explore")}
+                >
+                  See All Papers
+                </button>
               </div>
               <style
                 dangerouslySetInnerHTML={{
