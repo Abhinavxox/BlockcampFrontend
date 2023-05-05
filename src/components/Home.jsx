@@ -20,7 +20,7 @@ const Home = () => {
               PUBLISH A PAPER
             </h1>
             <p className="mb-5">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam
+              All-in-one stop to fund, publish, and distribute your research!
             </p>
             <Link to="/publish">
               <button className="btn btn-primary">Publish</button>
