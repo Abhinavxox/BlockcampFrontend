@@ -8,13 +8,20 @@ import store from "./redux/store";
 import "@rainbow-me/rainbowkit/styles.css";
 import { getDefaultWallets, RainbowKitProvider } from "@rainbow-me/rainbowkit";
 import { configureChains, createClient, WagmiConfig } from "wagmi";
-import { mainnet, polygon, optimism, arbitrum, sepolia } from "wagmi/chains";
+import {
+  mainnet,
+  polygon,
+  polygonMumbai,
+  optimism,
+  arbitrum,
+  sepolia,
+} from "wagmi/chains";
 import { alchemyProvider } from "wagmi/providers/alchemy";
 import { publicProvider } from "wagmi/providers/public";
 import { Provider } from "react-redux";
 
 const { chains, provider } = configureChains(
-  [mainnet, polygon, optimism, arbitrum],
+  [polygonMumbai, polygon, optimism, arbitrum, mainnet],
   [
     alchemyProvider({ apiKey: "5gMOPzrL_zTT6zsu8MPDuHltls1TjjsK" }),
     publicProvider(),

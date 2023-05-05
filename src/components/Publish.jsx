@@ -471,9 +471,9 @@ export const Publish = () => {
                   </p>
                 </div>
                 <button
-                  // onClick={() => PublishPaper()}
+                  onClick={() => PublishPaper()}
                   className="btn btn-primary"
-                  disabled={!connected || publishing}
+                  // disabled={!connected || publishing}
                 >
                   {connected ? (
                     publishing ? (

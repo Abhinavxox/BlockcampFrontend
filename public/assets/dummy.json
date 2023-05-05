@@ -1,0 +1,72 @@
+{
+  "papers": [
+    {
+      "title": "Lorem Ipsum Dolor Sit Amet",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at dui felis. Fusce eu semper mi, a interdum neque.",
+      "publisher": "0x3f5CE5FBFe3E9af3971dD833D26bA9b5C936f0bE",
+      "author": "Lorem",
+      "thumbnail": "https://via.placeholder.com/150",
+      "pdf": "https://example.com/paper.pdf",
+      "allowFunding": true,
+      "fundAmount": "0.1",
+      "totalAmountFunded": "0.05",
+      "metadata": {
+        "category": "Computer Science",
+        "tags": ["Lorem", "Ipsum", "Dolor"],
+        "published": "2023-05-05",
+        "updated": "2023-05-05"
+      }
+    },
+    {
+      "title": "Consectetur Adipiscing Elit",
+      "description": "Sed at dui felis. Fusce eu semper mi, a interdum neque. Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      "publisher": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+      "author": "Consectetur",
+      "thumbnail": "https://via.placeholder.com/150",
+      "pdf": "https://example.com/paper.pdf",
+      "allowFunding": false,
+      "fundAmount": "0",
+      "totalAmountFunded": "0",
+      "metadata": {
+        "category": "Philosophy",
+        "tags": ["Consectetur", "Adipiscing", "Elit"],
+        "published": "2023-05-04",
+        "updated": "2023-05-04"
+      }
+    },
+    {
+      "title": "Sed At Dui Felis",
+      "description": "Fusce eu semper mi, a interdum neque. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at dui felis.",
+      "publisher": "0xAb5801a7D398351b8bE11C439e05C5B3259aeC9B",
+      "author": "Sed At",
+      "thumbnail": "https://via.placeholder.com/150",
+      "pdf": "https://example.com/paper.pdf",
+      "allowFunding": true,
+      "fundAmount": "1",
+      "totalAmountFunded": "0.5",
+      "metadata": {
+        "category": "Psychology",
+        "tags": ["Sed", "At", "Dui"],
+        "published": "2023-05-03",
+        "updated": "2023-05-03"
+      }
+    },
+    {
+      "title": "Fusce Eu Semper Mi",
+      "description": "A interdum neque. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at dui felis. Fusce eu semper mi.",
+      "publisher": "0x4E9ce36E442e55EcD9025B9a6E0D88485d628A67",
+      "author": "Fusce Eu",
+      "thumbnail": "https://via.placeholder.com/150",
+      "pdf": "https://example.com/paper.pdf",
+      "allowFunding": true,
+      "fundAmount": "0.5",
+      "totalAmountFunded": "0.25",
+      "metadata": {
+        "category": "Mathematics",
+        "tags": ["Fusce", "Eu", "Semper"],
+        "published": "2023-05-02",
+        "updated": "2023-05-02"
+      }
+    }
+  ]
+}

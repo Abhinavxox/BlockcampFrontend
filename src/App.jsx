@@ -4,6 +4,7 @@ import Navbar from "./components/Navbar";
 import Explore from "./components/Explore";
 import { Publish } from "./components/Publish";
 import Dashboard from "./components/Dashboard";
+import ViewPaper from "./components/ViewPaper";
 
 const App = () => {
   return (
@@ -15,6 +16,7 @@ const App = () => {
           <Route path="/explore" element={<Explore />} />
           <Route path="/publish" element={<Publish />} />
           <Route path="/dashboard" element={<Dashboard />} />
+          <Route path="/viewPaper/:id" element={<ViewPaper />} />
         </Routes>
       </div>
     </div>
