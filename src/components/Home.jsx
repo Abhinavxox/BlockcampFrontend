@@ -1,6 +1,7 @@
 import React from "react";
 import PoliciesHero from "./PoliciesHero";
-import WhySection from "./WhySection";
+import { Link } from "react-router-dom";
+import Poster from "../images/poster.jpg";
 
 const Home = () => {
   return (
@@ -9,7 +10,7 @@ const Home = () => {
       <div
         className="hero h-1/2"
         style={{
-          backgroundImage: `url("/images/stock/photo-1507358522600-9f71e620c44e.jpg")`,
+          backgroundImage: `url(${Poster})`,
         }}
       >
         <div className="hero-overlay bg-opacity-60"></div>
@@ -21,7 +22,9 @@ const Home = () => {
             <p className="mb-5">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam
             </p>
-            <button className="btn btn-primary">Publish</button>
+            <Link to="/publish">
+              <button className="btn btn-primary">Publish</button>
+            </Link>
           </div>
         </div>
       </div>
@@ -29,10 +32,6 @@ const Home = () => {
       <div className="pb-10">
         <PoliciesHero />
       </div>
-      {/* why section
-      <div>
-        <WhySection />
-      </div> */}
     </>
   );
 };

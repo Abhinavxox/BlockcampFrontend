@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import PDF from "react-pdf-js";
 
-const ViewPDF = () => {
+const ViewPDF = ({ url }) => {
   const [pages, setPages] = useState(1);
   const [totalPages, setTotalPages] = useState(null);
 
@@ -23,11 +23,7 @@ const ViewPDF = () => {
 
   return (
     <div className="bg-base-300 rounded">
-      <PDF
-        file="https://www.africau.edu/images/default/sample.pdf"
-        onDocumentComplete={onDocumentComplete}
-        page={pages}
-      />
+      <PDF file={url} onDocumentComplete={onDocumentComplete} page={pages} />
       {totalPages && (
         <p className="p-5 text-3xl font-bold">
           Page {pages} of {totalPages}

@@ -50,7 +50,7 @@ const ViewPaper = () => {
         <div className="mx-auto p-5">
           <div className="grid sm:grid-cols-1 xl:grid-cols-2 gap-4">
             <div className="container md:col-span-1">
-              <ViewPDF />
+              <ViewPDF url={data.pdf} />
             </div>
 
             <div className="container md:col-span-1">
@@ -60,7 +60,7 @@ const ViewPaper = () => {
                 <div className="my-5">
                   <h1 className="text-3xl font-bold">Public ID:</h1>
 
-                  <div className="  rounded flex justify-between ">
+                  <div className="rounded flex justify-between ">
                     <div className="">
                       <p>{data.publisher}</p>
                     </div>
@@ -75,17 +75,32 @@ const ViewPaper = () => {
                 </div>
                 <div className="my-5">
                   <h1 className="text-center text-3xl font-bold">Funders:</h1>
-                  <div className="bg-base-300 rounded mx-auto w-3/4 h-[60vh]"></div>
+                  <div className="bg-base-300 rounded mx-auto w-3/4 h-[60vh]">
+                    <div className="  rounded flex justify-between p-3">
+                      <div className="">
+                        <p>{"0xab5801a7d398351b8be11c439e05c5b3259aec9b"}</p>
+                      </div>
+                      <div className="">
+                        <img
+                          className="rounded w-5 h-5 float-right"
+                          src={makeBlockie(
+                            "0xAb5801a7D398351b8bE11C439e05C5B3259aeC9B"
+                          )}
+                          alt="profile"
+                        />
+                      </div>
+                    </div>
+                  </div>
                 </div>
                 <div className="my-5">
                   <div className="bg-base-300 rounded mx-auto w-full h-[20vh]">
                     <h1 className="text-center text-3xl font-bold">
                       Total Donations:
                     </h1>
-                    <h1 className="text-center text-2xl">3.4056 ETH</h1>
+                    <h1 className="text-center text-2xl">0.0012.. MATIC</h1>
                     <progress
                       className="progress progress-error w-full px-4 my-5"
-                      value="70"
+                      value="10"
                       max="100"
                     ></progress>
                     <div className="flex justify-center">

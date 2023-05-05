@@ -1,12 +1,12 @@
 {
   "papers": [
     {
-      "title": "Lorem Ipsum Dolor Sit Amet",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at dui felis. Fusce eu semper mi, a interdum neque.",
+      "title": "A Computational framework of human values of ethical AI",
+      "description": "In the diverse array of work investigating the nature\nof human values from psychology, philosophy and\nsocial sciences, there is a clear consensus that values guide behaviour.A recognition\nthat values provide a means to engineer ethical AI\nhas emerged.",
       "publisher": "0x3f5CE5FBFe3E9af3971dD833D26bA9b5C936f0bE",
       "author": "Lorem",
-      "thumbnail": "https://via.placeholder.com/150",
-      "pdf": "https://example.com/paper.pdf",
+      "thumbnail": "https://bafybeidk3glcmqsdd3kmqzron6pb66tm73iwsnsw5qv7itsl3qardtytoq.ipfs.dweb.link/12.jpg",
+      "pdf": "https://bafybeigyy2jonrxivvdex6q5h2wajstca352k7c5cu6phitosftmgkb5ly.ipfs.dweb.link/f.pdf",
       "allowFunding": true,
       "fundAmount": "0.1",
       "totalAmountFunded": "0.05",
@@ -18,12 +18,12 @@
       }
     },
     {
-      "title": "Consectetur Adipiscing Elit",
-      "description": "Sed at dui felis. Fusce eu semper mi, a interdum neque. Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      "title": "Integrated network: low latency communication over Interference channel",
+      "description": "Framework for the key design consideration and implementation of a ground-to-UAV (G2U) communication network with an aim to minimize end-to-end transmission delay in the presence of interference.",
       "publisher": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
       "author": "Consectetur",
-      "thumbnail": "https://via.placeholder.com/150",
-      "pdf": "https://example.com/paper.pdf",
+      "thumbnail": "https://bafybeigcpcadva5mt64dpcxbx75gwhmassjkqws65pubocqkx2qzgtn5xy.ipfs.dweb.link/3.jpeg",
+      "pdf": "https://bafybeif3gd2meklfq7hizvlvp7x6tdoudr7mqbdc44bef44mx7sfkiqtze.ipfs.dweb.link/d.pdf",
       "allowFunding": false,
       "fundAmount": "0",
       "totalAmountFunded": "0",
@@ -35,12 +35,12 @@
       }
     },
     {
-      "title": "Sed At Dui Felis",
-      "description": "Fusce eu semper mi, a interdum neque. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at dui felis.",
+      "title": "Introduction to basic algebra",
+      "description": "quick maths",
       "publisher": "0xAb5801a7D398351b8bE11C439e05C5B3259aeC9B",
       "author": "Sed At",
-      "thumbnail": "https://via.placeholder.com/150",
-      "pdf": "https://example.com/paper.pdf",
+      "thumbnail": "https://bafybeifrcbrhv6w5f2giu4jq7spjy3h3xueusupicgosiq644q7hsyr3aa.ipfs.dweb.link/123.avif",
+      "pdf": "ipfs://bafybeibbnxxd56wilmebf7hvawlo4mrx2xajppaqrvzpo2336swmmktnsa/b.pdf",
       "allowFunding": true,
       "fundAmount": "1",
       "totalAmountFunded": "0.5",
@@ -49,23 +49,6 @@
         "tags": ["Sed", "At", "Dui"],
         "published": "2023-05-03",
         "updated": "2023-05-03"
-      }
-    },
-    {
-      "title": "Fusce Eu Semper Mi",
-      "description": "A interdum neque. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at dui felis. Fusce eu semper mi.",
-      "publisher": "0x4E9ce36E442e55EcD9025B9a6E0D88485d628A67",
-      "author": "Fusce Eu",
-      "thumbnail": "https://via.placeholder.com/150",
-      "pdf": "https://example.com/paper.pdf",
-      "allowFunding": true,
-      "fundAmount": "0.5",
-      "totalAmountFunded": "0.25",
-      "metadata": {
-        "category": "Mathematics",
-        "tags": ["Fusce", "Eu", "Semper"],
-        "published": "2023-05-02",
-        "updated": "2023-05-02"
       }
     }
   ]

@@ -496,7 +496,7 @@ export const Publish = () => {
                       "Publish"
                     )
                   ) : (
-                    "Connect Wallet"
+                    "Publish"
                   )}
                 </button>
               </div>
