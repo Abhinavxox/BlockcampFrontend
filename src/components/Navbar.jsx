@@ -42,7 +42,7 @@ const Navbar = () => {
                     </g>
                   </svg>
                   <p className="text-bold md:text2xl text-base pl-3 text-gray-800">
-                    PAPERCHAIN
+                    Publ.it
                   </p>
                 </div>
                 <div
@@ -154,7 +154,7 @@ const Navbar = () => {
                 </g>
               </svg>
               <h3 className="text-base text-gray-800 font-bold tracking-normal leading-tight ml-3 hidden lg:block">
-                <Link to="/">PAPERCHAIN</Link>
+                <Link to="/">Publ.it</Link>
               </h3>
             </div>
             <ul className="pr-5 xl:flex hidden items-center h-full">

@@ -17,7 +17,7 @@ export default function Footer() {
                 />
               </div>
               <p className="w-60 text-xl xl:text-2xl font-semibold leading-normal text-white">
-                PaperChain
+                Publ.it
               </p>
             </div>
             <div className="mt-12 xl:mt-0 grid grid-cols-1 sm:grid-cols-3 gap-y-12 sm:gap-y-0 w-full md:w-auto sm:gap-x-20 md:gap-x-28 xl:gap-8">
