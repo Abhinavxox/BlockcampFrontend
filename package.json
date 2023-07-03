@@ -11,7 +11,7 @@
     "clear-cache": "vite clear-cache"
   },
   "dependencies": {
-    "@rainbow-me/rainbowkit": "^0.12.12",
+    "@rainbow-me/rainbowkit": "^0.12.14",
     "@reduxjs/toolkit": "^1.9.5",
     "daisyui": "^2.51.6",
     "dotenv": "^16.0.3",
