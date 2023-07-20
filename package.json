@@ -32,7 +32,7 @@
     "redux": "^4.2.1",
     "redux-devtools-extension": "^2.13.9",
     "redux-thunk": "^2.4.2",
-    "wagmi": "^0.12.16",
+    "wagmi": "^0.12.18",
     "web3": "^1.10.0"
   },
   "devDependencies": {
