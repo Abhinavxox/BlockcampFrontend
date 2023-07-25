@@ -13,7 +13,7 @@
   "dependencies": {
     "@rainbow-me/rainbowkit": "^0.12.15",
     "@reduxjs/toolkit": "^1.9.5",
-    "daisyui": "^2.51.6",
+    "daisyui": "^2.52.0",
     "dotenv": "^16.0.3",
     "ethereum-blockies-base64": "^1.0.2",
     "ethereum-input-data-decoder": "^0.4.2",
