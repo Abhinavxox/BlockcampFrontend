@@ -19,7 +19,7 @@
     "ethereum-input-data-decoder": "^0.4.2",
     "ethers": "^5.7.2",
     "firebase": "^9.23.0",
-    "nft.storage": "^7.1.0",
+    "nft.storage": "^7.1.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-loading-skeleton": "^3.3.1",
